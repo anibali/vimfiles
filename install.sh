@@ -1,7 +1,7 @@
-#!/bin/sh
+#!/bin/bash
 
 if [[ -e $HOME/.vimrc || -e $HOME/.vim ]]; then
-  echo "Ooops: ~/.vimrc or ~/.vim already exists. \n\
+  echo -e "Ooops: ~/.vimrc or ~/.vim already exists. \n\
        It looks like you already have some vim configuration. \n\
        Try to run ./uninstall.sh"
 else

@@ -1,5 +1,4 @@
-let g:ctrlp_map = '<leader>f'
-let g:ctrlp_max_height = 15
-let g:ctrlp_custom_ignore = {
-  \ 'dir':  'vendor/bundle\|jmeter\|coverage',
-  \ }
+" Settings for CtrlP
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+let g:ctrlp_working_path_mode = 'ra'

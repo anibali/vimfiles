@@ -4,7 +4,7 @@ Portable vim configuration
 
 ## Install
 ```
-git clone git://github.com/fsproru/vimfiles ~/.vimfiles
+git clone git://github.com/anibali/vimfiles ~/.vimfiles
 cd ~/.vimfiles
 ./install.sh
 ```

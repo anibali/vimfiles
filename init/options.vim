@@ -6,6 +6,7 @@ filetype on                    " detect the type of file
 filetype plugin on             " load filetype plugins
 set viminfo+=!                 " make sure it can save viminfo
 set hidden                     " Allow hidden, unsaved buffers
+syntax on                      " Enable syntax highlighting
 
 " Visual Cues
 set showmatch     " show matching brackets

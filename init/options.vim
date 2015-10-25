@@ -48,3 +48,10 @@ match ErrorMsg '\s\+$'
 
 " Use column colour as vertical rule
 set colorcolumn=81
+
+" Change default netrw explorer mode
+let g:netrw_liststyle=0
+let g:netrw_banner=0
+let g:netrw_altv=1
+let g:netrw_preview=1
+let g:netrw_winsize=30

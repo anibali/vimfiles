@@ -49,6 +49,12 @@ match ErrorMsg '\s\+$'
 " Use column colour as vertical rule
 set colorcolumn=81
 
+" Set textwidth to 80 for use with `gq`
+set textwidth=80
+set wrap
+set linebreak
+" set nolist " Disables automatic hard line breaks
+
 " Change default netrw explorer mode
 let g:netrw_liststyle=0
 let g:netrw_banner=0

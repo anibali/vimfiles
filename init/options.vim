@@ -55,6 +55,8 @@ set wrap
 set linebreak
 " set nolist " Disables automatic hard line breaks
 
+set pastetoggle=<F2>
+
 " Change default netrw explorer mode
 let g:netrw_liststyle=0
 let g:netrw_banner=0

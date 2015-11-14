@@ -13,6 +13,7 @@ Plugin 'gabrielelana/vim-markdown'
 Plugin 'digitaltoad/vim-jade'
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
+Plugin 'ekalinin/Dockerfile.vim'
 
 call vundle#end()
 

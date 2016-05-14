@@ -5,6 +5,7 @@ Plugin 'VundleVim/Vundle.vim'
 
 " User plugins
 Plugin 'bling/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 Plugin 'tpope/vim-fugitive'
 Plugin 'kien/ctrlp.vim'
 Plugin 'godlygeek/tabular'

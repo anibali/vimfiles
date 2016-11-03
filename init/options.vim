@@ -64,4 +64,7 @@ let g:netrw_altv=1
 let g:netrw_preview=1
 let g:netrw_winsize=30
 
+" Workaround for LogiPat bug (see http://stackoverflow.com/a/31695784)
+let g:loaded_logipat = 1
+
 au BufNewFile,BufReadPost *.jade set filetype=jade

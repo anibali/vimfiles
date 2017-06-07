@@ -31,7 +31,6 @@ set nrformats=    " treat all numerals as decimal
 set number        " turn on line numbers
 set cpoptions+=n  " show wrapped lines in the line number gutter
 set lz            " do not redraw while running macros (much faster)
-set mouse=a       " use mouse everywhere
 " make the splitters between windows be blank
 set fillchars=vert:\ ,stl:\ ,stlnc:\
 set scrolloff=2   " Scroll when the cursor is 2 lines from edge

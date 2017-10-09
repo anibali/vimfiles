@@ -41,6 +41,7 @@ set smartcase
 
 " Set filetypes for unusual files
 au BufNewFile,BufRead {Capfile,Gemfile,Rakefile,config.ru,.irbrc} set ft=ruby
+au BufNewFile,BufRead Tupfile,*.tup setf tup
 
 " Show trailing whitespace as errors
 match ErrorMsg '\s\+$'

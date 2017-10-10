@@ -15,6 +15,7 @@ Plugin 'digitaltoad/vim-jade'
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
 Plugin 'ekalinin/Dockerfile.vim'
+Plugin 'eiginn/netrw'
 
 call vundle#end()
 

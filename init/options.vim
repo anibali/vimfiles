@@ -42,6 +42,7 @@ set smartcase
 " Set filetypes for unusual files
 au BufNewFile,BufRead {Capfile,Gemfile,Rakefile,config.ru,.irbrc} set ft=ruby
 au BufNewFile,BufRead Tupfile,*.tup setf tup
+au BufNewFile,BufRead *.gnuplot setf gnuplot
 
 " Show trailing whitespace as errors
 match ErrorMsg '\s\+$'
@@ -49,11 +50,11 @@ match ErrorMsg '\s\+$'
 " Use column colour as vertical rule
 set colorcolumn=81
 
-" Set textwidth to 80 for use with `gq`
-set textwidth=80
+set textwidth=0
+set wrapmargin=0
 set wrap
 set linebreak
-" set nolist " Disables automatic hard line breaks
+set nolist " Disables automatic hard line breaks
 
 set pastetoggle=<F2>
 

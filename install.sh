@@ -7,7 +7,6 @@ if [[ -e $HOME/.vimrc || -e $HOME/.vim ]]; then
 else
   echo === Checking out vundle
   git submodule update --init
-  cd -
 
   echo === Linking vim directories
   ln -s $PWD/vimrc $HOME/.vimrc
